@@ -128,10 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ej23feb.cpp" />
+    <ClCompile Include="ModPersona.cpp" />
     <ClCompile Include="Persona.cpp" />
+    <ClCompile Include="Tienda.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ModPersona.h" />
     <ClInclude Include="Persona.h" />
+    <ClInclude Include="Tienda.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
