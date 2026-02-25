@@ -1,0 +1,332 @@
+﻿  25febrero2026.cpp
+  cliente.cpp
+  ModCliente.cpp
+  ModProducto.cpp
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(5,2): error C2065: 'ind': identificador no declarado
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(27,19): error C2059: error de sintaxis: ')'
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(28,2): error C2143: error de sintaxis: falta ';' delante de '{'
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(31,2): error C2143: error de sintaxis: falta ';' delante de '}'
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(32,1): error C2143: error de sintaxis: falta ';' delante de '}'
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(35,1): error C2143: error de sintaxis: falta ';' delante de '{'
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(36,22): error C2065: 'ind': identificador no declarado
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(36,25): error C2059: error de sintaxis: ';'
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(37,2): error C2143: error de sintaxis: falta ';' delante de '{'
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(41,2): error C2143: error de sintaxis: falta ';' delante de '}'
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(44,1): error C2143: error de sintaxis: falta ';' delante de '}'
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(47,1): error C2143: error de sintaxis: falta ';' delante de '{'
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(48,22): error C2065: 'ind': identificador no declarado
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(48,25): error C2059: error de sintaxis: ';'
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(51,1): error C2143: error de sintaxis: falta ';' delante de '}'
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(54,1): error C2143: error de sintaxis: falta ';' delante de '}'
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\ModCliente.cpp(54,1): error C1004: se encontró un final de archivo no esperado
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Producto.h(4,10): error C2006: "#include": se esperaba "FILENAME" o <FILENAME>
+  (compiling source file 'ModProducto.cpp')
+  
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Producto.h(4,10): error C1083: No se puede abrir el archivo incluir: '': No such file or directory
+  (compiling source file 'ModProducto.cpp')
+  
+  ModVenta.cpp
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Producto.h(4,10): error C2006: "#include": se esperaba "FILENAME" o <FILENAME>
+  (compiling source file 'ModVenta.cpp')
+  
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Producto.h(4,10): error C1083: No se puede abrir el archivo incluir: '': No such file or directory
+  (compiling source file 'ModVenta.cpp')
+  
+  Producto.cpp
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Producto.h(4,10): error C2006: "#include": se esperaba "FILENAME" o <FILENAME>
+  (compiling source file 'Producto.cpp')
+  
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Producto.h(4,10): error C1083: No se puede abrir el archivo incluir: '': No such file or directory
+  (compiling source file 'Producto.cpp')
+  
+  Tienda.cpp
+  Venta.cpp
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7): error C2679: '<<' binario: no se encontró un operador que adopte un operando en la parte derecha de tipo 'ModCliente' (o bien no existe una conversión aceptable)
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(480,39):
+      puede ser 'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)': el argumento 2 no puede convertirse de 'ModCliente' a 'std::basic_streambuf<char,std::char_traits<char>> *'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(448,39):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)': el argumento 2 no puede convertirse de 'ModCliente' a 'const void *'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(430,39):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)': el argumento 2 no puede convertirse de 'ModCliente' a 'long double'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(412,39):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)': el argumento 2 no puede convertirse de 'ModCliente' a 'double'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(394,39):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)': el argumento 2 no puede convertirse de 'ModCliente' a 'float'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(376,39):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)': el argumento 2 no puede convertirse de 'ModCliente' a 'unsigned __int64'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(358,39):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)': el argumento 2 no puede convertirse de 'ModCliente' a '__int64'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(340,39):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)': el argumento 2 no puede convertirse de 'ModCliente' a 'unsigned long'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(322,39):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)': el argumento 2 no puede convertirse de 'ModCliente' a 'long'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(303,39):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)': el argumento 2 no puede convertirse de 'ModCliente' a 'unsigned int'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(277,39):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)': el argumento 2 no puede convertirse de 'ModCliente' a 'int'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(258,39):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)': el argumento 2 no puede convertirse de 'ModCliente' a 'unsigned short'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(224,39):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)': el argumento 2 no puede convertirse de 'ModCliente' a 'short'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(206,39):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)': el argumento 2 no puede convertirse de 'ModCliente' a 'bool'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(200,39):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))': el argumento 2 no puede convertirse de 'ModCliente' a 'std::ios_base &(__cdecl *)(std::ios_base &)'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(194,39):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))': el argumento 2 no puede convertirse de 'ModCliente' a 'std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &)'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(189,39):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))': el argumento 2 no puede convertirse de 'ModCliente' a 'std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &)'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(475,20):
+      o       'std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::nullptr_t)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'std::nullptr_t'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(1031,32):
+      o       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::error_code &)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'const std::error_code &'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              Razón: no se puede realizar la conversión de 'ModCliente' a 'const std::error_code'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(1005,9):
+      o       '_Ostr &&std::operator <<(_Ostr &&,const _Ty &)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          "_Ostr &&std::operator <<(_Ostr &&,const _Ty &)": no se pudo deducir el argumento plantilla para "__formal"
+              C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(1004,103):
+              '<template-parameter>': no se puede crear un puntero a una referencia
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(993,34):
+      o       'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,const char32_t *)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          "std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,const char32_t *)": no se pudo deducir el argumento plantilla para "std::basic_ostream<wchar_t,_Traits> &" de "std::basic_ostream<char,std::char_traits<char>>"
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(991,34):
+      o       'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,const char16_t *)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          "std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,const char16_t *)": no se pudo deducir el argumento plantilla para "std::basic_ostream<wchar_t,_Traits> &" de "std::basic_ostream<char,std::char_traits<char>>"
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(988,31):
+      o       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char32_t *)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'const char32_t *'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(986,31):
+      o       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char16_t *)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'const char16_t *'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(983,34):
+      o       'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,char32_t)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          "std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,char32_t)": no se pudo deducir el argumento plantilla para "std::basic_ostream<wchar_t,_Traits> &" de "std::basic_ostream<char,std::char_traits<char>>"
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(981,34):
+      o       'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,char16_t)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          "std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,char16_t)": no se pudo deducir el argumento plantilla para "std::basic_ostream<wchar_t,_Traits> &" de "std::basic_ostream<char,std::char_traits<char>>"
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(978,31):
+      o       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char32_t)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'char32_t'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(976,31):
+      o       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char16_t)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'char16_t'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(972,31):
+      o       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const wchar_t *)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'const wchar_t *'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(969,31):
+      o       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,wchar_t)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'wchar_t'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(963,34):
+      o       'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,char8_t)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          "std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,char8_t)": no se pudo deducir el argumento plantilla para "std::basic_ostream<wchar_t,_Traits> &" de "std::basic_ostream<char,std::char_traits<char>>"
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(961,31):
+      o       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char8_t)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'char8_t'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(957,34):
+      o       'std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,const char8_t *)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          "std::basic_ostream<wchar_t,_Traits> &std::operator <<(std::basic_ostream<wchar_t,_Traits> &,const char8_t *)": no se pudo deducir el argumento plantilla para "std::basic_ostream<wchar_t,_Traits> &" de "std::basic_ostream<char,std::char_traits<char>>"
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(955,31):
+      o       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char8_t *)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'const char8_t *'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(947,31):
+      o       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,unsigned char)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'unsigned char'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(941,31):
+      o       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const unsigned char *)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'const unsigned char *'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(936,31):
+      o       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,signed char)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'signed char'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(930,31):
+      o       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const signed char *)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'const signed char *'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(894,32):
+      o       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)": el parámetro de plantilla "_Elem" es ambiguo
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+              puede ser 'ModCliente'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+              o       'char'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,_Elem)": no se pudo deducir el argumento plantilla para "_Elem" de "ModCliente"
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(851,32):
+      o       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const _Elem *)": no se pudo deducir el argumento plantilla para "const _Elem *" de "ModCliente"
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(813,31):
+      o       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,char)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'char'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(768,31):
+      o       'std::basic_ostream<char,_Traits> &std::operator <<(std::basic_ostream<char,_Traits> &,const char *)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'const char *'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(732,32):
+      o       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,char)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'char'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_ostream.hpp(688,32):
+      o       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const char *)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+          'inicializando': no se puede realizar la conversión de 'ModCliente' a 'const char *'
+              D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,26):
+              No hay disponible ningún operador de conversión definido por el usuario que pueda realizar esta conversión, o bien no se puede llamar al operador
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(3821,32):
+      o       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::unique_ptr<_Ty2,_Dx2> &)": no se pudo deducir el argumento plantilla para "const std::unique_ptr<_Ty2,_Dx2> &" de "ModCliente"
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\memory(2015,32):
+      o       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::shared_ptr<_Ty> &)": no se pudo deducir el argumento plantilla para "const std::shared_ptr<_Ty> &" de "ModCliente"
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\xstring(3532,32):
+      o       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string<_Elem,_Traits,_Alloc> &)": no se pudo deducir el argumento plantilla para "const std::basic_string<_Elem,_Traits,_Alloc> &" de "ModCliente"
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\__msvc_string_view.hpp(2097,32):
+      o       'std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string_view<_Elem,_Traits>)'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          "std::basic_ostream<_Elem,_Traits> &std::operator <<(std::basic_ostream<_Elem,_Traits> &,const std::basic_string_view<_Elem,_Traits>)": no se pudo deducir el argumento plantilla para "const std::basic_string_view<_Elem,_Traits>" de "ModCliente"
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\cstddef(37,27):
+      o       'std::byte std::operator <<(const std::byte,const _IntType) noexcept'
+          D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+          "std::byte std::operator <<(const std::byte,const _IntType) noexcept": no se pudo deducir el argumento plantilla para "__formal"
+              C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.50.35717\include\cstddef(36,39):
+              'std::enable_if_t<false,int>': no se pudo especializar la plantilla de alias
+      D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Tienda.cpp(25,7):
+      al hacer coincidir la lista de argumentos '(std::basic_ostream<char,std::char_traits<char>>, ModCliente)'
+  
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Producto.h(4,10): error C2006: "#include": se esperaba "FILENAME" o <FILENAME>
+  (compiling source file 'Venta.cpp')
+  
+  Generando código...
+D:\Documentos\ky.progra2\25febrero2026\25febrero2026\Producto.h(4,10): error C1083: No se puede abrir el archivo incluir: '': No such file or directory
+  (compiling source file 'Venta.cpp')
+  
