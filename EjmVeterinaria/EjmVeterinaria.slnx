@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="EjmVeterinaria/EjmVeterinaria.vcxproj" Id="f643798b-0305-489b-a7df-e04f2645511b" />
+</Solution>
