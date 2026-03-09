@@ -1,0 +1,45 @@
+{
+  "Nombre": "ABA",
+  "Clientes": [
+    {
+      "Nombre": "Ana",
+      "Ci": 1313,
+      "Fono": 3245
+    },
+    {
+      "Nombre": "Pablo",
+      "Ci": 1243,
+      "Fono": 3234
+    },
+    {
+      "Nombre": "Ariana",
+      "Ci": 1223,
+      "Fono": 3233
+    }
+  ],
+  "Productos": [
+    {
+      "Codigo": 1,
+      "Nombre": "leche",
+      "Precio": 14
+    },
+    {
+      "Codigo": 2,
+      "Nombre": "pan",
+      "Precio": 18
+    }
+  ],
+  "Ventas": [
+    {
+      "Id": 1,
+      "Fecha": 1233,
+      "Productos": [
+        {
+          "Codigo": 1,
+          "Nombre": "leche",
+          "Precio": 14
+        }
+      ]
+    }
+  ]
+}
