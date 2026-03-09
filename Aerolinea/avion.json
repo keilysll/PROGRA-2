@@ -1,0 +1,24 @@
+[
+  {
+    "Codigo": 101,
+    "Origen": "CBBA",
+    "Destino": "LPZ",
+    "Avion": {
+      "Codigo": 1,
+      "Capacidad": 120,
+      "Modelo": "Boeing"
+    },
+    "Pasajeros": [
+      {
+        "Nombre": "Juan",
+        "Ci": 123,
+        "Telefono": 777
+      },
+      {
+        "Nombre": "Maria",
+        "Ci": 456,
+        "Telefono": 888
+      }
+    ]
+  }
+]
