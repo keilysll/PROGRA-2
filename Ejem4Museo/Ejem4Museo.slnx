@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Ejem4Museo/Ejem4Museo.vcxproj" Id="be47ed1c-8492-4326-baa1-3d0510432736" />
+</Solution>

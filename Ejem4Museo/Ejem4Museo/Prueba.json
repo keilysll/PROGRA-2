@@ -1,0 +1,50 @@
+{
+  "nombre": "x",
+  "dirreccion": "calle y",
+  "exposiciones": [
+    {
+      "numero": 1,
+      "artistas": [
+        {
+          "nombre": "Amadeo",
+          "especialidad": "oleo y acuarela",
+          "obras": [
+            {
+              "nombre": "Calle",
+              "precio": 2000,
+              "alto": 60,
+              "ancho": 80
+            },
+            {
+              "nombre": "Porton",
+              "precio": 2000,
+              "alto": 60,
+              "ancho": 80
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "artistas": [
+        {
+          "nombre": "Adalberto",
+          "materiales": "madera y hierro",
+          "obras": [
+            {
+              "nombre": "Signos",
+              "precio": 2000,
+              "peso": 30
+            },
+            {
+              "nombre": "Hombre",
+              "precio": 2000,
+              "peso": 45
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
