@@ -1,0 +1,40 @@
+{
+  "nombre": "ucb",
+  "direccion": "Av Eudoro Galindo",
+  "conferencias": [
+    {
+      "numero": 1,
+      "fecha": 20220101,
+      "link": "http://meet.google.com?asfd-asdf",
+      "instructores": [
+        {
+          "nombre": "Juan",
+          "especialidad": "Programacion"
+        }
+      ],
+      "participantes": [
+        {
+          "nombre": "Maria",
+          "carrera": "Sistemas"
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "fecha": 20220101,
+      "lugar": "Auditorio ucb",
+      "instructores": [
+        {
+          "nombre": "Jose",
+          "especialidad": "Programacion"
+        }
+      ],
+      "participantes": [
+        {
+          "nombre": "Pedro",
+          "carrera": "Sistemas"
+        }
+      ]
+    }
+  ]
+}
