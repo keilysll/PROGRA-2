@@ -1,0 +1,69 @@
+{
+  "clientes": [
+    {
+      "ci": 1002,
+      "nombre": "Ana",
+      "fono": 77772,
+      "mascotas": [
+        {
+          "nombre": "Toby",
+          "edad": 3
+        }
+      ]
+    },
+    {
+      "ci": 1001,
+      "nombre": "Carlos",
+      "fono": 77771,
+      "mascotas": [
+        {
+          "nombre": "Rex",
+          "edad": 5
+        },
+        {
+          "nombre": "Mimi",
+          "edad": 2
+        }
+      ]
+    }
+  ],
+  "servicios": [
+    {
+      "tipo": "Consulta",
+      "codigo": 10,
+      "descripcion": "Revision",
+      "costo": 50,
+      "veterinario": "Dr.Perez"
+    },
+    {
+      "tipo": "Vacunacion",
+      "codigo": 20,
+      "descripcion": "Rabia",
+      "costo": 30,
+      "vacuna": "Vax-X"
+    }
+  ],
+  "atenciones": [
+    {
+      "AtencionSimple": {
+        "id": 1,
+        "cliente": {
+          "ci": 1001,
+          "nombre": "Carlos",
+          "fono": 77771
+        },
+        "mascota": {
+          "nombre": "Rex",
+          "edad": 5
+        }
+      },
+      "atencion": {
+        "tipo": "Consulta",
+        "codigo": 10,
+        "descripcion": "Revision",
+        "costo": 50,
+        "veterinario": "Dr.Perez"
+      }
+    }
+  ]
+}
