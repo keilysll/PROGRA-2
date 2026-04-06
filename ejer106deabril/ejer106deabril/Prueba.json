@@ -1,0 +1,21 @@
+{
+  "numero": 1,
+  "mesa": {
+    "codigo": "pb1",
+    "capacidad": 5
+  },
+  "clientes": [
+    {
+      "nombre": "Juan",
+      "items": []
+    },
+    {
+      "nombre": "Jose",
+      "items": []
+    },
+    {
+      "nombre": "Maria",
+      "items": []
+    }
+  ]
+}
