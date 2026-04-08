@@ -1,0 +1,83 @@
+{
+  "nombre": "Sala 1",
+  "funciones": [
+    {
+      "id": 1,
+      "pelicula": "El Rey Leon",
+      "sala": [
+        {
+          "fila": 0,
+          "columna": 0,
+          "persona": {}
+        },
+        {
+          "fila": 0,
+          "columna": 1,
+          "persona": {}
+        },
+        {
+          "fila": 1,
+          "columna": 0,
+          "persona": {}
+        },
+        {
+          "fila": 1,
+          "columna": 1,
+          "persona": {}
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "pelicula": "Batman",
+      "sala": [
+        {
+          "fila": 0,
+          "columna": 0,
+          "persona": {}
+        },
+        {
+          "fila": 0,
+          "columna": 1,
+          "persona": {}
+        },
+        {
+          "fila": 1,
+          "columna": 0,
+          "persona": {}
+        },
+        {
+          "fila": 1,
+          "columna": 1,
+          "persona": {}
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "pelicula": "LEGO",
+      "sala": [
+        {
+          "fila": 0,
+          "columna": 0,
+          "persona": {}
+        },
+        {
+          "fila": 0,
+          "columna": 1,
+          "persona": {}
+        },
+        {
+          "fila": 1,
+          "columna": 0,
+          "persona": {}
+        },
+        {
+          "fila": 1,
+          "columna": 1,
+          "persona": {}
+        }
+      ]
+    }
+  ]
+}
