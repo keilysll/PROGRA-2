@@ -1,0 +1,39 @@
+[
+  {
+    "ci": 12345,
+    "nombre": "Pedro",
+    "fono": 55555,
+    "mascotas": [
+      {
+        "nombre": "Balto",
+        "edad": 3
+      },
+      {
+        "nombre": "Fido",
+        "edad": 2
+      }
+    ]
+  },
+  {
+    "ci": 12346,
+    "nombre": "Juan",
+    "fono": 55556,
+    "mascotas": [
+      {
+        "nombre": "Figaro",
+        "edad": 3
+      }
+    ]
+  },
+  {
+    "ci": 12347,
+    "nombre": "Aldo",
+    "fono": 55557,
+    "mascotas": [
+      {
+        "nombre": "Spike",
+        "edad": 5
+      }
+    ]
+  }
+]
