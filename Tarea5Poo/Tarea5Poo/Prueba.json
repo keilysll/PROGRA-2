@@ -1,0 +1,135 @@
+{
+  "nombre": "claro",
+  "productos": [
+    {
+      "nombre": "TV1",
+      "descripcion": "Plan de tv",
+      "canales": "1,2,3,4,5,6",
+      "precio": 200
+    },
+    {
+      "nombre": "TL1",
+      "descripcion": "Plan de telefonia",
+      "minutos": 180,
+      "precio": 200
+    },
+    {
+      "nombre": "IT1",
+      "descripcion": "Plan de internet",
+      "minutos": 40,
+      "precio": 200
+    },
+    {
+      "nombre": "PACK Silver",
+      "precio": 200,
+      "desc": 20,
+      "precio silver": 160,
+      "internet": {
+        "nombre": "IT1",
+        "descripcion": "Plan de internet",
+        "minutos": 40,
+        "precio": 200
+      },
+      "tv": {
+        "nombre": "TV1",
+        "descripcion": "Plan de tv",
+        "canales": "1,2,3,4,5,6",
+        "precio": 200
+      },
+      "descuento": 20
+    },
+    {
+      "nombre": "PACK Gold",
+      "precio": 500,
+      "desc": 30,
+      "precio gold": 350,
+      "internet": {
+        "nombre": "IT1",
+        "descripcion": "Plan de internet",
+        "minutos": 40,
+        "precio": 200
+      },
+      "tv": {
+        "nombre": "TV1",
+        "descripcion": "Plan de tv",
+        "canales": "1,2,3,4,5,6",
+        "precio": 200
+      },
+      "telefonia": {
+        "nombre": "TL1",
+        "descripcion": "Plan de telefonia",
+        "minutos": 180,
+        "precio": 200
+      },
+      "descuento": 30
+    }
+  ],
+  "ventas": [
+    {
+      "numero": 1,
+      "productos": [
+        {
+          "nombre": "PACK Silver",
+          "precio": 200,
+          "desc": 20,
+          "precio silver": 160,
+          "internet": {
+            "nombre": "IT1",
+            "descripcion": "Plan de internet",
+            "minutos": 40,
+            "precio": 200
+          },
+          "tv": {
+            "nombre": "TV1",
+            "descripcion": "Plan de tv",
+            "canales": "1,2,3,4,5,6",
+            "precio": 200
+          },
+          "descuento": 20
+        },
+        {
+          "nombre": "TL1",
+          "descripcion": "Plan de telefonia",
+          "minutos": 180,
+          "precio": 200
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "productos": [
+        {
+          "nombre": "PACK Gold",
+          "precio": 500,
+          "desc": 30,
+          "precio gold": 350,
+          "internet": {
+            "nombre": "IT1",
+            "descripcion": "Plan de internet",
+            "minutos": 40,
+            "precio": 200
+          },
+          "tv": {
+            "nombre": "TV1",
+            "descripcion": "Plan de tv",
+            "canales": "1,2,3,4,5,6",
+            "precio": 200
+          },
+          "telefonia": {
+            "nombre": "TL1",
+            "descripcion": "Plan de telefonia",
+            "minutos": 180,
+            "precio": 200
+          },
+          "descuento": 30
+        },
+        {
+          "nombre": "IT1",
+          "descripcion": "Plan de internet",
+          "minutos": 40,
+          "precio": 200
+        }
+      ]
+    }
+  ]
+}
