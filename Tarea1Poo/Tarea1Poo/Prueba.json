@@ -1,0 +1,35 @@
+{
+  "numero": 1,
+  "mesa": {
+    "codigo": "pb1",
+    "capacidad": 5
+  },
+  "clientes": [
+    {
+      "nombre": "Juan",
+      "items": [
+        {
+          "nombre": "papas",
+          "precio": 10
+        },
+        {
+          "nombre": "coke",
+          "precio": 8
+        }
+      ]
+    },
+    {
+      "nombre": "Maria",
+      "items": [
+        {
+          "nombre": "hamburguesa",
+          "precio": 20
+        },
+        {
+          "nombre": "sprite",
+          "precio": 8
+        }
+      ]
+    }
+  ]
+}
