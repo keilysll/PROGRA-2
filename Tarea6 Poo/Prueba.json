@@ -1,0 +1,50 @@
+{
+  "voluntarios": [
+    {
+      "ci": 12344,
+      "nombre": "Jose",
+      "pagos": [
+        {
+          "monto": 100,
+          "fecha": 20210201
+        }
+      ]
+    },
+    {
+      "ci": 12346,
+      "nombre": "Juan",
+      "pagos": [
+        {
+          "monto": 200,
+          "fecha": 20210101
+        },
+        {
+          "monto": 300,
+          "fecha": 20210201
+        }
+      ]
+    },
+    {
+      "ci": 12345,
+      "nombre": "Pedro",
+      "animales": [
+        {
+          "Felino": {
+            "codigo": 1,
+            "especie": "Tigre",
+            "edad": 5
+          },
+          "peso": 20
+        },
+        {
+          "Ave": {
+            "codigo": 2,
+            "especie": "Avestruz",
+            "edad": 1
+          },
+          "tipo": "terrestre"
+        }
+      ]
+    }
+  ]
+}
