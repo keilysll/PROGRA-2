@@ -1,0 +1,73 @@
+﻿  Cliente.cpp
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Cliente.h(10,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "Cliente.cpp")
+  
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Cliente.h(18,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "Cliente.cpp")
+  
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Cliente.cpp(34,1): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  Clinica.cpp
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Cliente.h(10,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "Clinica.cpp")
+  
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Cliente.h(18,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "Clinica.cpp")
+  
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\SingletonClientes.h(7,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "Clinica.cpp")
+  
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Clinica.h(14,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "Clinica.cpp")
+  
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Clinica.h(15,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "Clinica.cpp")
+  
+  Lista.cpp
+  P3.cpp
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Cliente.h(10,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "P3.cpp")
+  
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Cliente.h(18,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "P3.cpp")
+  
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\SingletonClientes.h(7,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "P3.cpp")
+  
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Clinica.h(14,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "P3.cpp")
+  
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Clinica.h(15,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "P3.cpp")
+  
+  Reserva.cpp
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Cliente.h(10,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "Reserva.cpp")
+  
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Cliente.h(18,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "Reserva.cpp")
+  
+  ReservaMultiple.cpp
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Cliente.h(10,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "ReservaMultiple.cpp")
+  
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Cliente.h(18,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "ReservaMultiple.cpp")
+  
+  ReservaSimple.cpp
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Cliente.h(10,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "ReservaSimple.cpp")
+  
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Cliente.h(18,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "ReservaSimple.cpp")
+  
+  SingletonClientes.cpp
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Cliente.h(10,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "SingletonClientes.cpp")
+  
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\Cliente.h(18,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "SingletonClientes.cpp")
+  
+C:\Users\MSI-\Documents\PROGRA2-KY\P3\P3\SingletonClientes.h(7,2): error C7568: falta la lista de argumentos después de la plantilla de función supuesta "Lista"
+  (compilando archivo de origen "SingletonClientes.cpp")
+  
+  Generando código...

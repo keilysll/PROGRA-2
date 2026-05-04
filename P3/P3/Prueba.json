@@ -1,0 +1,111 @@
+{
+  "atenciones": [
+    {
+      "tipo": "AtencionPeluqueria",
+      "codigo": 1,
+      "descripcion": "corte pelo",
+      "costo": 75,
+      "duracion": 120
+    },
+    {
+      "tipo": "AtencionMedica",
+      "codigo": 2,
+      "descripcion": "vacuna antirrabica",
+      "costo": 100,
+      "medicamentos": "Rabigan"
+    },
+    {
+      "tipo": "AtencionMedica",
+      "codigo": 3,
+      "descripcion": "desparasitacion",
+      "costo": 120,
+      "medicamentos": "lombrix"
+    },
+    {
+      "tipo": "AtencionPeluqueria",
+      "codigo": 4,
+      "descripcion": "ducha y limpieza",
+      "costo": 90,
+      "duracion": 180
+    }
+  ],
+  "reservas": [
+    {
+      "ReservaSimple": {
+        "id": 1,
+        "cliente": {
+          "ci": 12345,
+          "nombre": "Pedro",
+          "fono": 55555
+        },
+        "mascota": {
+          "nombre": "Balto",
+          "edad": 3
+        }
+      },
+      "atencion": {
+        "tipo": "AtencionPeluqueria",
+        "codigo": 1,
+        "descripcion": "corte pelo",
+        "costo": 75,
+        "duracion": 120
+      }
+    },
+    {
+      "ReservaMultiple": {
+        "id": 3,
+        "cliente": {
+          "ci": 12347,
+          "nombre": "Aldo",
+          "fono": 55557
+        },
+        "mascota": {
+          "nombre": "Spike",
+          "edad": 5
+        }
+      },
+      "atencion1": {
+        "tipo": "AtencionPeluqueria",
+        "codigo": 4,
+        "descripcion": "ducha y limpieza",
+        "costo": 90,
+        "duracion": 180
+      },
+      "atencion2": {
+        "tipo": "AtencionMedica",
+        "codigo": 2,
+        "descripcion": "vacuna antirrabica",
+        "costo": 100,
+        "medicamentos": "Rabigan"
+      }
+    },
+    {
+      "ReservaMultiple": {
+        "id": 4,
+        "cliente": {
+          "ci": 12346,
+          "nombre": "Juan",
+          "fono": 55556
+        },
+        "mascota": {
+          "nombre": "Figaro",
+          "edad": 3
+        }
+      },
+      "atencion1": {
+        "tipo": "AtencionMedica",
+        "codigo": 3,
+        "descripcion": "desparasitacion",
+        "costo": 120,
+        "medicamentos": "lombrix"
+      },
+      "atencion2": {
+        "tipo": "AtencionPeluqueria",
+        "codigo": 1,
+        "descripcion": "corte pelo",
+        "costo": 75,
+        "duracion": 120
+      }
+    }
+  ]
+}
