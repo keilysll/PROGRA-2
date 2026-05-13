@@ -1,10 +1,9 @@
 #include "Detalle.h"
 
-Detalle::Detalle(int id, int fecha, int dureacion)
+Detalle::Detalle(int id, int fecha)
 {
 	this->id = id;
 	this->fecha = fecha;
-	this->duracion = duracion;
 }
 
 Detalle::~Detalle()

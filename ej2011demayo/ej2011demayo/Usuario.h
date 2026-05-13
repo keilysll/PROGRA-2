@@ -7,6 +7,11 @@ using namespace std;
 #include"Paquete.h"
 #include"Detalle.h"
 #include"Llamada.h"
+#include"PaqueteMinutos.h"
+#include"PaqueteMegas.h"
+
+
+
 class Usuario
 {
 private:
@@ -21,6 +26,5 @@ public:
 	string toJson();
 	Lista<Paquete>& getPaquetes();
 	void ejecutarAccion(Llamada* l);
-	
-};
 
+};
